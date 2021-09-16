@@ -8,4 +8,5 @@ couponSavings = 0.50
 couponAmount = 3.0
 
 lunchPrice = (amountOfCroissants * croissantsPrice) + (amountOfBaguette * baguettePrice) - (couponSavings * couponAmount)
-print("Total price for the lunch is €",lunchPrice)
+#print("Total price for the lunch is €",lunchPrice)
+print("De feestlunch kost je bij de bakker",round(lunchPrice,2),"euro voor de 17 croissantjes en de 2 stokbroden als de 3 kortingsbonnen nog geldig zijn!")
